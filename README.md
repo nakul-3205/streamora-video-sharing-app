@@ -27,38 +27,24 @@ Streamora is a blazing-fast short video sharing platform, inspired by YouTube Sh
 | **TailwindCSS** | Fast UI design workflow         |
 | **Framer Motion** | Smooth UI animations          |
 
----
-
-## Screenshots
-
-> *(Add screenshots here once ready for better SEO + appeal)*
-##coming up
----
 
 ##  Live Demo
 ##coming up
 ---
 
-##  Getting Started Locally
+##Getting started locally
 
-```bash
+bash
 git clone https://github.com/your-username/streamora.git
 cd streamora
 npm install
 npm run dev
 
-
-
-
 ### Author
 Built with ❤️ by Nakul Kejriwal 
 
 
-
-
-
-
-🏷Tags
+##Tags
 #nextjs #mongodb #video-sharing #imagekit #vercel #shorts-clone #fullstack #mern #yt-clone #video-platform #tailwindcss #streamora
 
 
