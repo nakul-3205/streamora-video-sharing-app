@@ -43,8 +43,13 @@ Clone the repository:
 git clone https://github.com/nakul-3205/streamora-video-sharing-app.git
 cd streamora-video-sharing-app
 npm install
-npm run dev '''
+npm run dev
+```
 
-Built By Nakul Kejriwal
+##Author
+
+Built With Passion By Nakul Kejriwal
+
+##Tags
 
 #nextjs #mongodb #video-sharing #imagekit #vercel #shorts-clone #fullstack #mern #yt-clone #video-platform #tailwindcss #streamora
