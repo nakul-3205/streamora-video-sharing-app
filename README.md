@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Streamora
 
-## Getting Started
+Streamora is a blazing-fast short video sharing platform, inspired by YouTube Shorts. Built using Next.js, MongoDB, and ImageKit, it allows users to upload videos and explore content shared by others — all in a clean, minimal interface.
 
-First, run the development server:
+---
+
+## Features
+
+- Upload short videos
+- View others' videos with lightning speed
+- Smart compression via ImageKit
+- MongoDB-powered scalable backend
+- Built with Next.js App Router for modern performance
+- Responsive, clean UI (TailwindCSS + Framer Motion)
+
+Note: This is a minimal MVP — commenting, liking, and profile features will be added soon.
+
+---
+
+## Tech Stack
+
+| Technology        | Purpose                           |
+|-------------------|------------------------------------|
+| Next.js           | Frontend + Server-side rendering   |
+| MongoDB           | Database for storing video info    |
+| ImageKit          | Efficient video uploads & CDN      |
+| TailwindCSS       | Fast UI design workflow            |
+| Framer Motion     | Smooth UI animations               |
+
+---
+
+## Live Demo
+
+Coming soon
+
+---
+
+## Getting Started Locally
+
+Clone the repository:
 
 ```bash
+git clone https://github.com/nakul-3205/streamora-video-sharing-app.git
+cd streamora-video-sharing-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built By Nakul Kejriwal
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#nextjs #mongodb #video-sharing #imagekit #vercel #shorts-clone #fullstack #mern #yt-clone #video-platform #tailwindcss #streamora
