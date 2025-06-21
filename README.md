@@ -1,4 +1,4 @@
-# 📺 Streamora
+#  Streamora
 
 Streamora is a blazing-fast short video sharing platform, inspired by YouTube Shorts. Built using **Next.js**, **MongoDB**, and **ImageKit**, it allows users to upload videos and explore content shared by others — all in a clean, minimal interface.
 
@@ -17,7 +17,7 @@ Streamora is a blazing-fast short video sharing platform, inspired by YouTube Sh
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 | Technology | Purpose                         |
 |------------|----------------------------------|
@@ -39,7 +39,7 @@ Streamora is a blazing-fast short video sharing platform, inspired by YouTube Sh
 ##coming up
 ---
 
-## ⚙️ Getting Started Locally
+##  Getting Started Locally
 
 ```bash
 git clone https://github.com/your-username/streamora.git
