@@ -37,7 +37,9 @@ export default function RegisterPage() {
         throw new Error(data.error || "Registration failed");
       }
 
-      router.push("/feed");
+      setTimeout(() => {
+  router.push("/feed");
+}, 2000);
     } catch (error) {
       setPasswordError("Something went wrong. Try again.");
     } finally {

@@ -20,15 +20,25 @@ export async function POST(req: NextRequest) {
     const buffer = Buffer.from(arrayBuffer);
 
     const uploaded = await imagekit.upload({
-      file: buffer, // pass file buffer directly
+      file: buffer,
       fileName: `${Date.now()}-${file.name}`,
-      folder: "/streamora/videos", // optional folder in your ImageKit
+      folder: "/streamora/videos",
       useUniqueFileName: true,
     });
 
-    return NextResponse.json({ url: uploaded.url }); // this is what you store
+    return NextResponse.json({ url: uploaded.url });
   } catch (error: any) {
     console.error("ImageKit Upload Error:", error);
     return NextResponse.json({ error: "Upload failed", details: error.message }, { status: 500 });
   }
+}
+
+// 💡 Handle OPTIONS preflight (important for CORS)
+export async function OPTIONS() {
+  return NextResponse.json({}, { status: 200 });
+}
+
+// ❌ Reject other methods with 405
+export async function GET() {
+  return NextResponse.json({ error: "Method Not Allowed" }, { status: 405 });
 }
