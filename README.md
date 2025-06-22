@@ -49,6 +49,8 @@ npm run dev
 ##Author
 
 Built With Passion By Nakul Kejriwal
+> 🚀 Liked the project?  
+> Drop a ⭐ to support and help it reach more devs!
 
 ##Tags
 
