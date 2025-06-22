@@ -1,23 +1,27 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import React from "react";
 
 interface IVideo {
   _id: string;
   title: string;
   Description: string;
   videoUrl: string;
-  createdAt: string
+  createdAt: string;
 }
 
-export default function VideoFeed() {
-  const [videos, setVideos] = useState<IVideo[]>([]);
+interface VideoFeedProps {
+  videos: IVideo[];
+}
 
-  useEffect(() => {
-    fetch("/api/upload")
-      .then((res) => res.json())
-      .then((data) => setVideos(data));
-  }, []);
+export default function VideoFeed({ videos }: VideoFeedProps) {
+  if (!videos.length) {
+    return (
+      <div className="text-white text-center mt-10">
+        <p className="text-gray-400">No videos to display yet.</p>
+      </div>
+    );
+  }
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 bg-gray-950 min-h-screen text-white">
